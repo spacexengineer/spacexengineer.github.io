@@ -109,7 +109,7 @@ audio {
 }
 
 article img, article a img {
-	display: block; 
+	//display: block; 
 	margin: 0 auto;
 }
 
