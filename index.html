@@ -1,130 +1,324 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<!-- By Hunter Casbeer
-			Very basic setup. Still a work in progress!
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<html>
+	<head>
+		<title>Stellar by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- STARS START-->
+		<div id="stars"></div>
+		<div id="stars2"></div>
+		<div id="stars3"></div>
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title> Hunter Casbeer </title>
 
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css">
-		<script
-			src="https://code.jquery.com/jquery-3.1.1.min.js"
-			integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-			crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.js"></script>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
+				<!-- Header -->
+					<header id="header" class="alt">
+						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+						<h1>Hi, I'm Hunter.</h1>
+						<h1>Let's build something together.</h1>
+						<h3><i>Full Stack Software Developer in the Bay Area.</i></h3>
+					</header>
 
-		<link href="style2.css" rel="stylesheet">
-		<link href="style.css" type="text/css" rel="stylesheet">
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">About</a></li>
+							<li><a href="#first">Projects</a></li>
+							<li><a href="#second">Resume</a></li>
+							<li><a href="#footer">Contact</a></li>
+						</ul>
+					</nav>
 
-		<link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Orbitron">
-    <link rel="stylesheet" type="text/css"
-					href="https://fonts.googleapis.com/css?family=Play">
-		<script src="behavior.js"></script>
-	
-  </head>
-  
-  <body class="works_on_smartphone">
-  	<script type="text/javascript"></script>
-  	<header>
+				<!-- Main -->
+					<div id="main">
 
-	  	<!-- Navigation Bar --> 
-		<ul>
-			<li><a href="#About">About</a></li>
-			<li><a href="#Resume">Resume</a></li>
-			<li><a href="#Contact">Contact</a></li>
-		</ul>
-		<audio controls preload="auto" autoplay loop="loop">
-			<source src="./places.mp3" type="audio/mpeg" >
-			Your browser does not support the audio tag.
-		</audio>
-  	</header>
-	
-	<main>
-		<!-- Background Stars -->
-		<div class="background-wrap">
-			<video id="video-bg-elem" preload="auto" autoplay loop="loop" muted="muted">
-				<source src="./galaxy.mp4" type="video/mp4">
-				Video not supported
-			</video>
-		</div>
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About Me</h2>
+										</header>
+										<p>
+											I am a full stack software developer in the Bay Area with experience in JavaScript, Python and C.
+											I have some experience with relational and non-relational databases as well as basic
+											knowledge when it comes to configuring Linux servers.
+										</p>
+										<p>
+											During my undergrad at Kettering University in Michigan, I had the opportunity to work in the automotive
+											industry and kicked off my journey as a developer when I worked on firmware at Tesla Motors.
+											Inspired by what I accomplished at Tesla, I took a shot at starting my own biotech algae company
+											in Ireland with seed funding from <a href="https://rebelbio.co/spira-sustainable-food-spirulina/" target="_blank">RebelBio</a>, but failed to take our company to the next stage.
+											<!-- TODO write medium post about failing startup-->
+										</p>
+										<p>
+											I have returned to the Bay Area to build a strong foundation in software development from a first principle
+											approach. Through educational resources, friends, and relationships that I have made in my network, I am looking forward
+											to taking the next step in joining a team of developers and contribute to new, innovative technology.
+										</p>		
+									</div>
+									<span class="image"><img src="images/xengineer.jpeg" alt="" /></span>
+								</div>
+							</section>
+
+							<!-- CUSTOM-->
+							<section class="main special">
+									<header class="major">
+										<h2>Technology</h2>
+									</header>
+									<!-- <ul class="statistics">
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/react-router.svg" height="55" alt="javascript-icon"/>
+														<p>JavaScript</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/react-router.svg" height="55" alt="javascript-icon"/>
+														<p>JavaScript</p>
+													</span>
+												</li>									
+											</ul> -->
+											<ul class="icons">
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/javascript.svg" height="35" alt="javascript-icon"/>
+														<p>JavaScript</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/python.svg" height="35" alt="python-icon"/>
+														<p>Python</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/c.svg" height="35" alt="c-icon"/>
+														<p>C</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/react.svg" height="35" alt="react-icon"/>
+														<p>React</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/redux.svg" height="35" alt="redux-icon"/>
+														<p>Redux</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/jquery.svg" height="20" alt="jquery-icon"/>
+														<p>jQuery</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/nodejs.svg" height="35" alt="nodejs-icon"/>
+														<p>NodeJS</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/flask.svg" height="35" alt="flask-icon"/>
+														<p>Flask</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/mysql.svg" height="35" alt="mysql-icon"/>
+														<p>MySQL</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/postgresql.svg" height="35" alt="postgresql-icon"/>
+														<p>PostgreSQL</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/mongodb.svg" height="35" alt="mongodb-icon"/>
+														<p>MongoDB</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/html-5.svg" height="35" alt="html-5-icon"/>
+														<p>HTML5</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/css-3.svg" height="35" alt="css-3-icon"/>
+														<p>CSS3</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/bootstrap.svg" height="35" alt="bootstrap-icon"/>
+														<p>Bootstrap</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/git.svg" height="35" alt="git-icon"/>
+														<p>Git</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/nginx.svg" height="35" alt="nginx-icon"/>
+														<p>Nginx</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/gunicorn.svg" height="35" alt="gunicorn-icon"/>
+														<p>Gunicorn</p>
+													</span>
+												</li>
+												<li>
+													<span class="icon label">
+														<img src="assets/techStack/puppet.svg" height="35" alt="puppet-icon"/>
+														<p>Puppet</p>
+													</span>
+												</li>
+												<!-- bootstrap (5px), nginx(1/2), mongodb(5px), flask(bigger)
+													maybe remove words for flask, node, git, jquery...remove all text
+												-->
+											</ul>
+								</section>
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Projects</h2>
+								</header>
+								
+								<ul class="features">
+									<li>
+										<span class="image">
+												<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/309/hbnb_1_2.jpg" height="125px"/>
+										</span>
+										<h3>Airbnb Clone</h3>
+										<p>Simple full stack AirBnB clone. 
+											<br>	
+											Technology: Python,
+												Flask, HTML, CSS, JavaScript, jQuery, RESTful API, Swagger,
+												Linux, NGINX, MySQL, MySQLAlchemy,
+												gunicorn, fabric, HAProxy, SSL certbot.
+											</p>
+											<a href="https://github.com/spacexengineer/AirBnB_clone_v4" target="_blank" class="button">Github</a>
+									</li>
+									<li>
+											<span class="image"><img src="images/mediumParser.gif" alt="" height="125px"/></span>
+										<h3>Medium Search App</h3>
+										<p>Enter a Medium username, select posts, and enter word(s) to search.
+											<br>
+											Technology: Python, custom CPython library, Jinja, HTML5, Bootstrap, CSS3
+										</p>
+										<a href="https://github.com/spacexengineer/ParseMe" target="_blank" class="button">Github</a>
+										<!--TODO shrink width -->
+									</li>
+									<li>
+										<!-- <span class="icon major style1 fa-code"></span> -->
+										<span class="image"><img src="images/shelly.gif" alt="" height="125px"/></span>
+										<h3>Simple Shell</h3>
+										<p>This project was built up after creating many fundamental functions in C, effectively immulating simple shell commands.
+											<br>	
+											Technology: C language, Linux, GCC, make.
+										</p>
+										<a href="https://github.com/spacexengineer/simple_shell" target="_blank" class="button">Github</a>
+											
 		
-		<article class="content">
+									</li>
+									<li>
+											<span class="image"><img src="images/rain.png" alt="" height="125px"/></span>
+										<h3>React Weather App</h3>
+										<p>Uses Open Weather API to generate weather information.
+										<br>
+											Technology: React JS, Redux, ES6 Javascript, Bootstrap, Open Weather API
+										</p>
+										<a href="https://github.com/spacexengineer/react-weather-app" target="_blank" class="button">Github</a>
+									</li>
+									<li>
+											<span class="image"><img src="images/linkedList.png" alt="" height="125px"/></span>
+										<h3>LinkedIn Backend Clone</h3>
+										<p>A backend LinkedIn clone to immulate requests made to a node server.
+											<br>
+											Technology: NodeJS, MongoDB, JSON web tokens, fully RESTful API
+										</p>
+										<a href="https://github.com/spacexengineer/linkedlist-1" target="_blank" class="button">Github</a>
+									</li>									
+								</ul>
+							</section>
 
-			<h1>Hunter Casbeer</h1>	
-			<hr>
-			<h2 id="About">About</h2>
-				<article class="projectArticle">
-					<div class="projectDesc">
-						<p>
-							I am software developer in the Bay Area with experience in firmware development with C,
-							Python/Flask with backend web development, and Vanilla Javascript and jQuery for front end developement
-							in addition to some experience with relational and non-relational databases.
-						</p>
-						<p>
-							My passion
-							for software development ignited when I worked at Tesla Motors on the front door motors and
-							saw my code deployed to thousands of customers.
-						</p>
-						<p>
-							On the side, my interests involve me continuing to design and build rockets for fun along with small hardware projects.
-							I am also a coffee enthusiast.
-						</p>
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>
+										<a href="https://docs.google.com/document/d/1z4ZSjR17peOQHut3vf_hbHb3OZTyrPkBJT8Ic-a6t20/edit?usp=sharing" target="_blank">
+											Link To Resume
+										</a></h2>
+								</header>
+							</section>
+
+						<!-- Get Started -->
+
+
 					</div>
-					<div class="imgContainer">
-						<div class="imgView">
-							<img class="img" src="./spacexengineer.jpg" />
-						</div>
-					</div>
-				</article>
-			<hr>
 
-			<h2 id="Resume">Resume</h2>
-				<article class="resumeArticle">
-					<div class="resumeContainer">
-							<a href="https://drive.google.com/file/d/0B_8ULM1XRjFJdHVoMmM4MmE5UDc3OS00bzBFVjRYOHZZTVlv/view?usp=sharing"  target="_blank">
-								<img src="./resume.png" />
-							</a>
-						</div>
-						</article>
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Let's Get In Touch</h2>
+							<p>Thanks for the taking the time to browse through my site and make it this far!
+								Let me know your thoughts and let's work together on the next opporunity you have.
+							</p>
+						</section>
+						<section>
+							<h2>Contact Info</h2>
+							<dl class="alt">
+								<dt>Phone</dt>
+								<dd>(830) 992-9249</dd>
+								<dt>Email</dt>
+								<dd><a href="#">hunter.casbeer@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/hcasbeer/" target="_blank" class="icon fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/spacexengineer" target="_blank" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</footer>
 
-			<hr>
-			<h2 id="Contact">Contact</h2>
-			<h3>hunter.casbeer@gmail.com</h3>
-			<div class="contactContainer">
-				<article class="contactLinks">
-					<a href="https://github.com/spacexengineer" target="_blank">
-						<i class="github icon"></i>
-					</a>
-					<a href="https://www.linkedin.com/in/hcasbeer/" target="_blank">
-					<i class="linkedin icon"></i>
-					</a>
-					<a href="https://angel.co/hunter-casbeer?public_profile=1" target="_blank">
-						<i class="angellist icon"></i>
-					</a>
-					<a href="https://medium.com/@spacexengineer" target="_blank">
-						<i class="medium icon"></i>
-					</a>						
-				</article>
 			</div>
-		</article>
 
-		<aside>
-			<p>**Work in progress** :)</p>
-		</aside>
-	</main>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
-	<footer>
-		<div>
-	      <span style="vertical-align: middle;">
-	        Made by <a href="https://twitter.com/spacex3ngineer" target="_blank">Hunter Casbeer</a> 
-	    </div>
-	</footer>
-
-  </body>
+	</body>
 </html>
